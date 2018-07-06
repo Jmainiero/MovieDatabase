@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 300%;
+  padding: 5%;
+  font-family: 'Titillium Web';
+  color: #f0f3f3;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  margin-bottom: 2%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img/hero-img-6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 25vh;
+}
+
+h2 {
+  font-family: 'Ubuntu';
+  margin-bottom: 1%;
+}
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #89a4c7;
+    content: " ";
+    width: 400px;
+    margin: 0 auto;
+}
+#search-form {
+    margin: 1.5% 20% 1.5% 20%;
+    background-color: #89a4c7;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+
+input {
+  height: 30px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  background-color: #cdd5e0;
+  border: 1px solid white;
+}
+
+#submit {
+  background-color: #cdd5e0;
+  width: 125px;
+}
+
+#submit:hover {
+  background-color: #65daf7;
+  transition: background-color 0.3s;
+}
+
+
+/* GRID */
+
+#photos {
+  margin: 1.5% 20% 1.5% 20%;
+}
+
+
+/* RESULTS TABLE */
+
+table, th, td {
+  border: 1px solid black;
+}
+th {
+  font-family: 'Raleway';
+  margin: 1%;
+
+}
